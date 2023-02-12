@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What's Your Degree?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+      <div class="whole">
+        <h2>What's Your Degree?</h2>
+        <div class="content">
+       <form action="" >
+        <div class="inputs">
+          <input type="number" name="degree" id="degree" placeholder="Degrees" required>
+          <select name="" id="intype">
+            <option value="C">Celcius</option>
+            <option value="F">Farenheit</option>
+            <option value="K">Kelvin</option>
+          </select><br>
+          
+          <p id="selecttext">Select conversion unit:</p><select name="" id="outtype">
+            <option value="C">Celcius</option>
+            <option value="F">Farenheit</option>
+            <option value="K">Kelvin</option>
+          </select><br>
+        </div>
+          <button type="submit" id="convertbtn">Convert</button>
+        </form>
+        <div class="results">
+        <p class="result">Result-</p>
+        <p id="output"></p>
+      </div>
+    </div>
+      </div>
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>
